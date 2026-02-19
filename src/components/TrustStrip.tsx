@@ -35,7 +35,7 @@ const TrustStrip = () => (
             className="group relative flex flex-col items-center"
           >
             {/* Client Name */}
-            <span className="text-2xl md:text-3xl font-black tracking-tighter text-muted-foreground/20 group-hover:text-primary/60 transition-colors duration-500 select-none">
+            <span className="text-2xl md:text-3xl font-black tracking-tighter text-primary/60 group-hover:text-primary/60 transition-colors duration-500 select-none">
               {client.name}
             </span>
 

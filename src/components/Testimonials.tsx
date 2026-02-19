@@ -26,12 +26,15 @@ const TestimonialSlider = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
+            <p className="text-[10px] font-bold uppercase tracking-[0.5em] text-primary mb-6">
+              Social Proof
+            </p>
             <h2 className="text-5xl md:text-7xl font-black tracking-tighter leading-[0.85] md:mb-0 mb-[-40px]">
               Client <br />
               <span className="text-muted-foreground/30">Verification.</span>
             </h2>
           </motion.div>
-          .{/* Slider Controls */}
+          {/* Slider Controls */}
           <div className="flex gap-4">
             <button
               onClick={prevStep}

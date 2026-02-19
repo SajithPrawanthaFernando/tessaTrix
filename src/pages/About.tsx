@@ -76,7 +76,7 @@ const About = () => (
       </section>
 
       {/* 2. System Status (Stats) */}
-      <section className="md:py-24 py-12 relative overflow-hidden">
+      <section className="md:py-24 py-16 relative overflow-hidden">
         <div className="absolute inset-0 bg-primary/[0.02] border-y border-white/5" />
         <div className="container-main relative z-10 px-4">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-12">
@@ -110,7 +110,7 @@ const About = () => (
       </section>
 
       {/* 3. The Code of Ethics (Values) */}
-      <section className="section-padding md:mt-0 mt-[-40px]">
+      <section className="section-padding md:mt-0 mt-[-50px]">
         <div className="container-main px-4">
           <div className="md:mb-20 mb-5">
             <h2 className="text-4xl md:text-6xl font-black tracking-tighter">

@@ -47,7 +47,7 @@ const CaseStudy = () => {
 
       <main className="pt-32">
         {/* 1. Cinematic Hero Section */}
-        <section className="px-4 md:mb-24 mb-12">
+        <section className="px-4 md:mb-24 mb-10">
           <div className="container-main">
             <Link
               to="/work"
