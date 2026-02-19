@@ -35,7 +35,7 @@ const TestimonialSlider = () => {
             </h2>
           </motion.div>
           {/* Slider Controls */}
-          <div className="flex gap-4">
+          <div className="flex gap-4 md:mt-0 mt-[25px]">
             <button
               onClick={prevStep}
               className="h-12 w-12 rounded-full border border-white/10 flex items-center justify-center hover:bg-white/5 hover:border-primary/50 transition-all group"
