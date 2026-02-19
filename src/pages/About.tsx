@@ -111,7 +111,7 @@ const About = () => (
 
       {/* 3. The Code of Ethics (Values) */}
       <section className="section-padding md:mt-0 mt-[-50px]">
-        <div className="container-main px-4">
+        <div className="container-main ">
           <div className="md:mb-20 mb-5">
             <h2 className="text-4xl md:text-6xl font-black tracking-tighter">
               Our <span className="text-muted-foreground/30">Foundations.</span>
