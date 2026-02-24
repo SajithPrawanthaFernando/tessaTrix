@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const clients = [
   { name: "GuidanceLK", type: "Fintech" },
   { name: "HomeFix", type: "Logistics" },
-  { name: "InvestmentsLK", type: "SaaS" },
+  // { name: "InvestmentsLK", type: "SaaS" },
 ];
 
 const TrustStrip = () => (

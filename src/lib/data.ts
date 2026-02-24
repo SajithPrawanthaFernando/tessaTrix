@@ -8,6 +8,9 @@ import {
   LucideIcon,
 } from "lucide-react";
 
+import guidance from "../assets/guidance.png";
+import homefix from "../assets/homefix.png";
+
 export interface Service {
   title: string;
   description: string;
@@ -25,6 +28,7 @@ export interface CaseStudy {
   approach: string;
   solution: string;
   results: string;
+  image?: string;
 }
 
 export interface FAQ {
@@ -124,60 +128,46 @@ export const services: Service[] = [
 
 export const caseStudies: CaseStudy[] = [
   {
-    slug: "fintech-onboarding",
-    title: "Fintech Onboarding Overhaul",
+    slug: "guidance-lk-medical-consultancy",
+    title: "Guidance.lk Education Platform",
     summary:
-      "Redesigned the onboarding flow for a digital banking platform, cutting drop-off and improving activation.",
-    tags: ["UI/UX", "Web app"],
+      "Developed a medical education portal to streamline Belarusian university applications for Sri Lankan students.",
+    tags: ["UI/UX", "Web Development"],
     metrics: [
-      "Reduced onboarding time by 40%",
-      "Increased activation by 28%",
-      "4.8★ app store rating",
+      "Digitized a complex manual application guide",
+      "Mapped career pathways for 5+ global regions ",
+      "Reduced pre consultation inquiry time by 60%",
     ],
     problem:
-      "The existing onboarding flow had a 60% drop-off rate due to excessive form fields and unclear progress indicators.",
+      "The medical consultancy industry lacked transparency, leaving students confused about eligibility and complex visa procedures.",
     approach:
-      "We conducted user interviews, mapped the journey, and redesigned the flow with progressive disclosure and smart defaults.",
+      "Information architecture was restructured to prioritize trust, using a vertical timeline for the journey and clear recognition pillars.",
     solution:
-      "A streamlined 3-step onboarding with real-time validation, document upload via camera, and contextual help tooltips.",
+      "A high-performance platform featuring a 6-year MD program breakdown, an interactive 9-step application guide, and direct WhatsApp integration.",
     results:
-      "Drop-off decreased from 60% to 20%. Average onboarding time fell from 12 minutes to 4 minutes.",
+      "Transformed a fragmented process into a clear roadmap, reducing user cognitive load and establishing a 'zero-middlemen' trust model.",
+    image: guidance,
   },
   {
-    slug: "saas-dashboard",
-    title: "SaaS Analytics Dashboard",
+    slug: "homefix-lk-cleaning-service",
+    title: "HomeFix.lk Service Platform",
     summary:
-      "Built a real-time analytics dashboard that helped a SaaS team improve conversion tracking.",
-    tags: ["Web app", "Integrations"],
+      "Designed and developed a high-conversion booking platform for professional home maintenance services.",
+    tags: ["UI/UX", "Web Development", "Service Integration"],
     metrics: [
-      "Improved conversion by 22%",
-      "Real-time data sync",
-      "50+ custom reports",
+      "Built a managed service model for 50+ trained staff",
+      "Streamlined booking for 500+ completed cleans",
+      "Maintained a 4.9/5 star average customer rating",
     ],
     problem:
-      "The team relied on spreadsheets and manual exports to track conversion funnels, causing delays of up to 48 hours.",
+      "The home cleaning market in Colombo was fragmented, with homeowners struggling to find reliable, vetted help and consistent service quality.",
     approach:
-      "We designed a modular dashboard architecture with live data pipelines and customisable report builders.",
+      "Focused on 'Trust-First' architecture by highlighting safety clearances, trained staff profiles, and a transparent core value system.",
     solution:
-      "A React-based dashboard with WebSocket-powered real-time updates, drag-and-drop report builder, and automated alerts.",
+      "A multi-service booking engine featuring specialized flows for Deep Cleaning, Maid Services, and industrial-grade Sofa shampooing.",
     results:
-      "The team identified and fixed conversion bottlenecks within hours instead of days, improving conversion by 22%.",
-  },
-  {
-    slug: "logistics-automation",
-    title: "Logistics Operations Automation",
-    summary:
-      "Automated manual dispatch and tracking processes for a mid-size logistics company.",
-    tags: ["AI", "Integrations"],
-    metrics: ["Cut manual ops by 60%", "3x faster dispatch", "99.2% uptime"],
-    problem:
-      "Dispatchers manually assigned routes and updated tracking via phone calls and spreadsheets.",
-    approach:
-      "We built an AI-powered routing engine integrated with GPS tracking and automated customer notifications.",
-    solution:
-      "An intelligent dispatch system with route optimisation, real-time tracking dashboard, and automated SMS/email updates.",
-    results:
-      "Manual operations reduced by 60%. Average dispatch time dropped from 15 minutes to under 5 minutes.",
+      "Transformed the freelancer-market experience into a premium managed service, resulting in over 500 happy clients and consistent same-day booking reliability.",
+    image: homefix,
   },
 ];
 
@@ -235,41 +225,45 @@ export const testimonials: Testimonial[] = [
 export const pricingTiers: PricingTier[] = [
   {
     name: "Starter",
-    price: "From £5,000",
-    description: "Perfect for MVPs and proof-of-concept builds.",
+    price: "From 20,000 LKR",
+    description:
+      "For startups and small businesses launching their first website.",
     features: [
-      "Up to 5 pages or screens",
-      "Responsive design",
-      "Basic integrations",
-      "2 rounds of revisions",
-      "Deployment included",
+      "Functional website using 1 page",
+      "3 day delivery",
+      "Hosting setup",
+      "Social media icons",
+      "Unlimited Revisions",
     ],
   },
   {
     name: "Growth",
-    price: "From £15,000",
-    description: "For teams ready to build a production-grade product.",
+    price: "From 80,000 LKR",
+    description:
+      "For businesses looking to establish a strong online presence.",
     features: [
-      "Full web application",
-      "Custom design system",
-      "API development",
-      "Authentication & roles",
-      "CI/CD pipeline",
-      "30 days post-launch support",
+      "Functional website upto 5 pages",
+      "5 day delivery",
+      "Speed optimization",
+      "Hosting setup",
+      "Social media icons",
+      "Unlimited Revisions",
     ],
     highlighted: true,
   },
   {
     name: "Scale",
-    price: "From £35,000",
-    description: "Enterprise-grade solutions with ongoing partnership.",
+    price: "From 200,000 LKR",
+    description: "For organizations needing a robust, scalable solution.",
     features: [
-      "Complex multi-service architecture",
-      "AI & automation features",
-      "Performance optimisation",
-      "Security audit",
-      "Dedicated team",
-      "Ongoing maintenance",
+      "Functional website upto 10 pages",
+      "14 day delivery",
+      "Speed optimization",
+      "Hosting setup",
+      "Social media icons",
+      "E-commerce functionality",
+      "Custom integrations",
+      "Unlimited Revisions",
     ],
   },
 ];

@@ -30,10 +30,10 @@ const values = [
 ];
 
 const stats = [
-  { icon: Calendar, label: "Market Presence", value: "6+", unit: "Years" },
-  { icon: Users, label: "Systems Deployed", value: "80+", unit: "Projects" },
-  { icon: Clock, label: "SLA Response", value: "<4", unit: "Hours" },
-  { icon: Zap, label: "Client Retention", value: "92", unit: "%" },
+  { icon: Calendar, label: "Market Presence", value: "1+", unit: "Years" },
+  { icon: Users, label: "Systems Deployed", value: "2+", unit: "Projects" },
+  { icon: Clock, label: "SLA Response", value: "<3", unit: "Hours" },
+  { icon: Zap, label: "Client Retention", value: "100", unit: "%" },
 ];
 
 const About = () => (

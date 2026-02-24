@@ -54,12 +54,14 @@ const Contact = () => (
                   <div className="flex items-center gap-3 mb-4 text-primary">
                     <MapPin className="h-4 w-4" />
                     <span className="text-[10px] font-bold uppercase tracking-widest text-foreground">
-                      Studio Location
+                      Location
                     </span>
                   </div>
-                  <p className="text-xl font-bold tracking-tight">London, UK</p>
+                  <p className="text-xl font-bold tracking-tight">
+                    761/B/3, Polhena Road, Kelaniya
+                  </p>
                   <p className="text-sm text-muted-foreground font-medium mt-1">
-                    Remote-first // Global Reach
+                    Remote-first
                   </p>
                 </div>
 
