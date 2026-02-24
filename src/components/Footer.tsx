@@ -15,10 +15,10 @@ const footerLinks = [
   {
     title: "Capabilities",
     links: [
-      { label: "SaaS Architecture", href: "/services" },
-      { label: "Fintech Systems", href: "/services" },
+      { label: "Product Design & UX", href: "/services" },
+      { label: "Web App Development", href: "/services" },
       { label: "AI Integration", href: "/services" },
-      { label: "Logistics Tools", href: "/services" },
+      { label: "Cloud Deployment", href: "/services" },
     ],
   },
 ];

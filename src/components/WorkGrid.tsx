@@ -13,7 +13,7 @@ const WorkGrid = ({ limit, showCta = true }: WorkGridProps) => {
   const items = limit ? caseStudies.slice(0, limit) : caseStudies;
 
   return (
-    <section className="section-padding md:mt-[-170px] mt-[-130px] bg-background relative overflow-hidden">
+    <section className="section-padding md:mt-[-170px] mt-[-120px] bg-background relative overflow-hidden">
       <div className="container-main relative z-10">
         {/* Header Section */}
         <div className="flex flex-col md:flex-row md:items-end justify-between md:mb-20 mb-10 gap-6">
@@ -103,7 +103,7 @@ const WorkGrid = ({ limit, showCta = true }: WorkGridProps) => {
                   </div>
 
                   {/* Floating Metric Badge */}
-                  <div className="flex flex-col items-end">
+                  <div className="md:flex hidden flex-col items-end">
                     <div className="mt-4 h-10 w-10 rounded-full border border-border flex items-center justify-center group-hover:bg-primary group-hover:border-primary transition-all duration-300">
                       <ArrowUpRight className="h-5 w-5 group-hover:text-white transition-colors" />
                     </div>
