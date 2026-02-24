@@ -35,7 +35,7 @@ const ServicesGrid = () => (
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1 }}
-            className="group relative bg-background px-8 py-2  md:py-4 transition-all duration-500 hover:bg-white/[0.02]"
+            className="group relative bg-background px-8 py-4  md:py-4 transition-all duration-500 hover:bg-white/[0.02]"
           >
             <div className="flex flex-col h-full relative z-10">
               {/* Card Header: Index + Action */}
