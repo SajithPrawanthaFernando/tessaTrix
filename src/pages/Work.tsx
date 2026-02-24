@@ -101,7 +101,7 @@ const Work = () => {
                             "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=1964&auto=format&fit=crop"
                           }
                           alt={study.title}
-                          className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-1000 ease-in-out"
+                          className="w-full h-full object-cover md:grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-1000 ease-in-out"
                         />
 
                         {/* Internal Label Overlay */}
@@ -114,7 +114,7 @@ const Work = () => {
                               {study.metrics[0]}
                             </p>
                           </div>
-                          <div className="h-14 w-14 rounded-full bg-primary flex items-center justify-center text-white shadow-xl">
+                          <div className="h-14 w-14 rounded-full bg-primary hidden md:flex items-center justify-center text-white shadow-xl">
                             <ArrowUpRight className="h-6 w-6" />
                           </div>
                         </div>
